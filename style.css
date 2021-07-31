@@ -1,0 +1,201 @@
+body{
+    font-family: "Nunito", sans-serif
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section{
+    border: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+section p{
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.colour-panel{
+    background-size: 20px 30px;
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#shakespeare{
+    background-color: #4DA8DA;
+    text-align: center;
+}
+
+#tall-poppy{
+    background-color: #B73255;
+    text-align: center;
+}
+
+#malachite{
+    background-color: #11E97D;
+    text-align: center;
+}
+
+#electric-violet{
+    background-color: #5D11E9;
+    text-align: center;
+}
+
+#cerise-red{
+    background-color: #DE354C;
+    text-align: center;
+}
+
+#burnt-umber{
+    background-color: #932432;
+    text-align: center;
+}
+
+#meteorite{
+    background-color: #3C1874;
+    text-align: center;
+}
+
+#orient{
+    background-color: #004E7C;
+    text-align: center;
+}
+
+#siam{
+    background-color: #5C5F58;
+    text-align: center;
+}
+
+#brandy{
+    background-color: #DDAF94;
+    text-align: center;
+}
+
+
+#lochmara{
+    background-color: #007CC7;
+    text-align: center;
+}
+
+
+#blue-dianne{
+    background-color: #203647;
+    text-align: center;
+}
+
+#romantic{
+    background-color: #FFD6C1;
+    text-align: center;
+}
+
+#hippie-green{
+    background-color: #164A41;
+    text-align: center;
+}
+
+#green-pea{
+    background-color: #4D774E;
+    text-align: center;
+}
+
+#ronchi{
+    background-color: #F1B24A;
+    text-align: center;
+}
+
+#tower-gray{
+    background-color: #A3BCB6;
+    text-align: center;
+}
+
+#killarney{
+    background-color: #39603D;
+    text-align: center;
+}
+
+#anakiwa{
+    background-color: #7FDBFF;
+    text-align: center;
+}
+
+#midnight{
+    background-color: #001F3F;
+    text-align: center;
+}
+
+#breaker-bay{
+    background-color: #5F9EA0;
+    text-align: center;
+}
+
+#wheat{
+    background-color:#F5DEB3;
+    text-align: center;
+}
+
+#quicksand{
+    background-color: #BC8F8F;
+    text-align: center;
+}
+
+#dodger-blue{
+    background-color: #1E90FF;
+    text-align: center;
+}
+
+#thistle{
+    background-color: #D8BFD8;
+    text-align: center;
+}
+
+#alto{
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+#raw-sienna{
+    background-color: #CD853F;
+    text-align: center;
+}
+
+#spectra{
+    background-color: #2F4F4F;
+    text-align: center;
+}
+
+#pippen{
+    background-color: #FFE4E1;
+    text-align: center;
+}
+
+#marigold{
+    background-color: #BE9227;
+    text-align: center;
+}
+
+#piper{
+    background-color: #BE7227;
+    text-align: center;
+}
+
+#bourbon{
+    background-color: #BD6D1F;
+    text-align: center;
+}
+
+#cashmere{
+    background-color: #E5C19E;
+    text-align: center;
+}
