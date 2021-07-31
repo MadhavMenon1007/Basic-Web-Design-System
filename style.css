@@ -8,13 +8,14 @@ h1{
     text-align: center;
 }
 
-section{
+#fonts-section, #colours-section, #text-section{
     border: 1px solid black;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
-section p{
+
+#colours-section p{
     color: white;
 }
 
@@ -24,6 +25,11 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-size: 25px;
+}
+
+/* Start Colour Section */
 .colour-panel{
     background-size: 20px 30px;
     width: 100px;
@@ -199,3 +205,73 @@ h2{
     background-color: #E5C19E;
     text-align: center;
 }
+/* End Colour Section */
+
+.extra-info{
+    font-size: 10px;
+    text-align: center;
+}
+
+#fonts-section{
+    font-size: 20px;
+}
+
+font{
+    margin-bottom: 20px;
+}
+
+#georama{
+    font-family: "Georama", sans-serif
+}
+
+#roboto-condensed{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#lora{
+    font-family: "Lora", serif;
+}
+
+#crimson-text{
+    font-family: "Crimson Text", serif;
+}
+
+#eb-garamond{
+    font-family: "EB Garamond", serif;
+}
+
+#ubuntu-mono{
+    font-family: "Ubuntu Mono", monospace;
+}
+
+#share-tech-mono{
+    font-family: "Share Tech Mono", monospace;
+}
+
+#major-mono-display{
+    font-family: "Major Mono Display", monospace;
+}
+
+.hide {
+    display: none;
+  }
+      
+  .font:hover + .hide {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+
+
+  #h1-tag, #h2-tag{
+      text-align: Left;
+  }
+#signature{
+    font-weight: bold;
+    font-size: 18px;
+}
+

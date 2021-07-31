@@ -6,10 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Website Design System</title>
         <link href="./style.css" rel="stylesheet" type="text/css">
-        <!--Import Nunito font from Google Fonts-->
+        <!--Access Google Fonts API-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Georama&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Georama&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
     </head>
 
 
@@ -20,9 +30,8 @@
         </header>
 
         <main>
-            <section id="colours">
+            <section id="colours-section">
                 <h2>Colours</h2>
-
 
                 <div class="colour-panel" id="shakespeare">
                     <p>Shakespeare</p>
@@ -189,32 +198,114 @@
                     <p>Cashmere</p>
                     <p>#E5C19E</p>
                 </div>
-
-
-               
-
-
-
-                
-                
-
-             
-
-
-
             </section>
 
-            <section id="fonts">
+            <section id="fonts-section">
                 <h2>Fonts</h2>
+                <h3 class="extra-info">Hover over text to reveal font</h3>
+
+                <section id="sans-serif-fonts">
+                    <h3>Sans Serif</h3>
+
+                    <div id="georama">
+                        <div class="font">1). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Georama</div>
+                    </div>
+
+                    <div id="roboto-condensed">
+                        <div class="font">2). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Roboto Condensed</div>
+                    </div>
+
+                    <div id="josefin-sans">
+                        <div class="font">3). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Josefine Sans</div>
+                    </div>
+                </section>
+
+                <section id="serif-fonts">
+                    <h3>Serif</h3>
+
+                    <div id="lora">
+                        <div class="font">1). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Lora</div>
+                    </div>
+
+                    <div id="crimson-text">
+                        <div class="font">2). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Crimson Text</div>
+                    </div>
+
+                    <div id="eb-garamond">
+                        <div class="font">3). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">EB Garamond</div>
+                    </div>
+                </section>
+
+                <section id="monospace-fonts">
+                    <h3>Monospace</h3>
+
+                    <div id="ubuntu-mono">
+                        <div class="font">1). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Ubuntu Mono</div>
+                    </div>
+
+                    <div id="share-tech-mono">
+                        <div class="font">2). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Share Tech Mono</div>
+                    </div>
+
+                    <div id="major-mono-display">
+                        <div class="font">3). The quick brown fox jumps over the lazy dog</div>
+                        <div class="hide">Major Mono Display</div>
+                    </div>
+                </section>
+
+
+
+                <!-- <p id="roboto-condensed">Roboto Condensed: The quick brown fox jumps over the lazy dog</p> -->
+         
+
             </section>
 
-            <section id="text-style">
+            <section id="text-section">
                 <h2>Text Styles</h2>
+                <div>
+                    <h1 id="h1-tag">h1 Tags</h1>
+                    <ul>
+                        <li>Font Size: 50px</li>
+                        <li>Font Weight: Bold</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 id="h2-tag">h2 tags</h2>
+                    <ul>
+                        <li>Font Size: 30px</li>
+                        <li>Font Weight: Bold</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p id="p-tag">p tags</p>
+                    <ul>
+                        <li>Font Size: Regular</li>
+                        <li>Font Weight: Regular</li>
+                    </ul>
+                </div>
+
+
+
+              
+                
             </section>
         </main>
 
         <footer>
             <p>Colours are named as per: <a href="https://chir.ag/projects/name-that-color/">https://chir.ag/projects/name-that-color</a></p>
+            <p>Fonts are courtesy of Google Fonts</p>
+            <p>Design inspired by Codecademy's Website Design System Project</p>
+            <p id="signature">Done by: Madhav Menon, 31/07/21</p>
         </footer>
     </body>
 
